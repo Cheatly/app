@@ -107,7 +107,7 @@ function createContents_Videos(){
     var ytimg_start="http://img.youtube.com/vi/";
     var ytimg_end="/default.jpg";
     var yt_url="http://www.youtube.com/embed/";
-    var ytframe_start="<iframe width='100%' height='300px' src='//www.youtube.com/embed/";
+    var ytframe_start="<iframe width='100%' height='300px' src='http://www.youtube.com/embed/";
     var ytframe_end="?theme=light' frameborder='0' allowfullscreen></iframe>";
 
 
