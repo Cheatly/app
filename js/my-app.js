@@ -96,6 +96,7 @@ function insertImageCheats(n){
         return html;
 
     }
+    return "";
 }
 
 function insertImageGuide(n){
@@ -112,6 +113,8 @@ function insertImageGuide(n){
         return html;
 
     }
+
+    return "";
 }
 
 function createContents_Guide(){
