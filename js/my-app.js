@@ -9,14 +9,14 @@ var myApp = new Framework7({
             $$("#navbar_1_title").html(window.data[loc].info.title);
 
         }else if(page.name === 'page-2'){
-            $$("#navbar_2_title").html("Cheats & Tips");
-            $$(".tab-link[data-tab='tab-2']").find(".badge").html(window.data[loc].cheats.length);
+            $$("#navbar_2_title").html("Cheats, Unlocks & Tips");
+           $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].cheats.length);
         }else if(page.name === 'page-3'){
             $$("#navbar_3_title").html("Guide & Walkthroughs");
-            $$(".tab-link[data-tab='tab-3']").find(".badge").html(window.data[loc].guide.length);
+           $$(".tab-link[data-tabn='tab-3']").find(".badge").html(window.data[loc].guide.length);
         }else if(page.name === 'page-4'){
             $$("#navbar_4_title").html("Videos");
-            $$(".tab-link[data-tab='tab-4']").find(".badge").html(window.data[loc].videos.length);
+           $$(".tab-link[data-tabn='tab-4']").find(".badge").text(window.data[loc].videos.length);
         }
 
     },
@@ -61,7 +61,7 @@ function createContents_Cheats(){
         html+='<li class="accordion-item">'+
                     '<a href="#" class="item-content item-link">'+
                         '<div class="item-inner">'+
-                            '<div class="item-title">'+window.data[loc].cheats[i].title+'</div>'+
+                            '<div class="item-title">'+(i+1)+') '+window.data[loc].cheats[i].title+'</div>'+
                         '</div>'+
                     '</a>'+
                     '<div class="accordion-item-content">'+
@@ -81,7 +81,7 @@ function createContents_Guide(){
         html+='<li class="accordion-item">'+
                     '<a href="#" class="item-content item-link">'+
                         '<div class="item-inner">'+
-                            '<div class="item-title">'+window.data[loc].guide[i].title+'</div>'+
+                            '<div class="item-title">'+(i+1)+') '+window.data[loc].guide[i].title+'</div>'+
                         '</div>'+
                     '</a>'+
                     '<div class="accordion-item-content">'+
@@ -101,7 +101,7 @@ function createContents_Videos(){
         html+='<li class="accordion-item">'+
                     '<a href="#" class="item-content item-link">'+
                         '<div class="item-inner">'+
-                            '<div class="item-title">'+window.data[loc].videos[i].title+'</div>'+
+                            '<div class="item-title">'+(i+1)+') '+window.data[loc].videos[i].title+'</div>'+
                         '</div>'+
                     '</a>'+
                     '<div class="accordion-item-content">'+

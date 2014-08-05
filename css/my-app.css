@@ -61,10 +61,11 @@ font-face {
 
 .list-block .accordion-item .content-block, .list-block .accordion-item .list-block {
     border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 20px;
 }
 
 .list-block .item-title {
-    /*font-weight: bold;*/
+    font-weight: bolder;
 }
 
 
@@ -87,4 +88,8 @@ font-face {
 
 .navbar .center {
     font-weight:bolder;
+}
+
+.list-block {
+    margin: 0px;
 }
