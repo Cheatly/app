@@ -62,7 +62,8 @@ var l="en";
 data[l]= new Data(l);
 
 data[l].info.title="Subway Surfers Cheats";
-data[l].info.description='These are cheats and glitches in '+data[l].info.title+'. Sometimes some of the glitches/cheats doesn\'t work due to an update. <br/><br/> <a href="#" class="button active">Active Button</a><br/><a href="#" class="button">Active Button</a> ';
+data[l].info.description='These are cheats and glitches in '+data[l].info.title+'. Sometimes some of the glitches/cheats doesn\'t work due to an update. <br/><br/>';
+data[l].info.image="<center><img src='data/img/icon_big.jpg'></img></center>";
 
 
 
@@ -71,7 +72,7 @@ data[l].info.description='These are cheats and glitches in '+data[l].info.title+
 data[l].addCheat(
         "A Free Past Board",
         "This cheat gives you the Miami-Special Board for FREE! The instuctions of this cheat is the same as Time Travel Cheat. <br/><br/>Steps:<br/> 1. Go to your device's setting and change the date and time to 'May 30, 2013.'<br/>2. Open Subway Surfers and check your Boards Section. <br/>3. See if you got the Miami-Special Board!<br/><br/>- Note: This cheat may not work!",
-        ""
+        "https://lh4.ggpht.com/Z9mQlegYmcYc_gfLeDd3Z8hr-NQBLnrVYAlEem-PJQVibeQq4Rc0_XcBlYRXUK3x6b4=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw"
     );
 /*--------------------------*/
 
@@ -283,7 +284,7 @@ data[l].addCheat(
 data[l].addGuide(
         "Ride On Top",
         "Ride on the tops of the trains whenever possible as the camera view is from right behind you and being up high will give you a better view of oncoming traffic and power-ups.",
-        ""
+        "https://lh4.ggpht.com/Z9mQlegYmcYc_gfLeDd3Z8hr-NQBLnrVYAlEem-PJQVibeQq4Rc0_XcBlYRXUK3x6b4=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw"
     );
 /*--------------------------*/
 

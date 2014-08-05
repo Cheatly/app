@@ -27,7 +27,7 @@ var myApp = new Framework7({
 
             $$("#navbar_1_title").html(window.data[loc].info.title);
             $$(pg).find("[data-id='title']").html(window.data[loc].info.title);
-            $$(pg).find("[data-id='content']").html(window.data[loc].info.description);
+            $$(pg).find("[data-id='content']").html(window.data[loc].info.description+window.data[loc].info.image);
 
         }else if(page.name === 'page-2'){
 
@@ -69,13 +69,49 @@ function createContents_Cheats(){
                 '</div>'+
                 '</a>'+
                 '<div class="accordion-item-content">'+
-                '<div class="content-block">'+window.data[loc].cheats[i].description+'</div>'+
+                '<div class="content-block">'+
+                window.data[loc].cheats[i].description+"<br/>"+
+                insertImageCheats(i)+
+                '</div>'+
                 '</div>'+
                 '</li>';
         }
         html+="</ul>";
     }
     return html;
+}
+
+
+function insertImageCheats(n){
+
+    if(window.data[loc].cheats[n].image!=""){
+        var html="<br/>";
+        var split=window.data[loc].cheats[n].image.split(";");
+        for(var i=0;i<split.length;i++){
+            if(i%2==0){html+='<div class="row">';}
+            html+='<div class="col-50"><img src="'+split[i]+'" width="100%"></img></div>';
+            if(i%2==1){html+='</div>';}
+        }
+
+        return html;
+
+    }
+}
+
+function insertImageGuide(n){
+
+    if(window.data[loc].guide[n].image!=""){
+        var html="<br/>";
+        var split=window.data[loc].guide[n].image.split(";");
+        for(var i=0;i<split.length;i++){
+            if(i%2==0){html+='<div class="row">';}
+            html+='<div class="col-50"><img src="'+split[i]+'" width="100%"></img></div>';
+            if(i%2==1){html+='</div>';}
+        }
+
+        return html;
+
+    }
 }
 
 function createContents_Guide(){
@@ -93,7 +129,10 @@ function createContents_Guide(){
                 '</div>'+
                 '</a>'+
                 '<div class="accordion-item-content">'+
-                '<div class="content-block">'+window.data[loc].guide[i].description+'</div>'+
+                '<div class="content-block">'+
+                window.data[loc].guide[i].description+"<br/>"+
+                insertImageCheats(i)+
+                '</div>'+
                 '</div>'+
                 '</li>';
         }
