@@ -27,6 +27,7 @@ var myApp = new Framework7({
 
         }else if(page.name === 'page-2'){
 
+            $$(pg).find("[data-id='content']").html(createContents_Cheats());
 
         }else if(page.name === 'page-3'){
 
@@ -47,20 +48,34 @@ var mainView = myApp.addView('.view-main', {
 
 
 
+function createContents_Cheats(){
+    var html="";
+    html+="<ul>";
+    for(var i=0;i<window.data[loc].cheats.length)
+    {
+        html+='<li class="accordion-item">'+
+                    '<a href="#" class="item-content item-link">'+
+                        '<div class="item-inner">'+
+                            '<div class="item-title">'+window.data[loc].cheats[i].title+'</div>'+
+                        '</div>'+
+                    '</a>'+
+                    '<div class="accordion-item-content">'+
+                        '<div class="content-block">'+window.data[loc].cheats[i].description+'</div>'+
+                    '</div>'+
+                '</li>';
+    }
+
+
+    html+="</ul>";
+    return html;
+
+}
+
 
 /*
 
 
-<li class="accordion-item"><a href="#" class="item-content item-link">
-                                        <div class="item-inner">
-                                            <div class="item-title">Item 1</div>
-                                        </div></a>
-                                        <div class="accordion-item-content">
-                                            <div class="content-block">
-                                                <p>Item 1 content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim viverra velit sed euismod. Mauris sed quam vehicula, dapibus ante a, aliquet augue.</p>
-                                            </div>
-                                        </div>
-                                    </li>
+
 
 
 
