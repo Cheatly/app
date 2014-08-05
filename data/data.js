@@ -231,7 +231,45 @@ data[l].addCheat(
     );
 /*--------------------------*/
 
+/*--------------------------*/
+data[l].addCheat(
+        "Coin-Doubler Jetpack",
+        "<p>This cheat will allow you to collect 2 coins, when riding a jetpack.</p><p>Steps<br />Get Super Sneakers power-up.<br />When you're lucky, you might find a jetpack, when the super sneakers isn't de-activated yet. (Can be easy if the Super Sneakers is upgraded.)<br />Swipe to collect coins, as you can see the coin meter fills it 2 coins every coin collected.<br />Tip: Upgrade the Super Sneakers and Jetpack for the cheat to be easier.</p>",
+        ""
+    );
+/*--------------------------*/
 
+/*--------------------------*/
+data[l].addCheat(
+        "Hover-Mixture",
+        "<p>Hover-Mixture is a glitch which the jetpack will act like a hoverboard. This is a crazy glitch that doesn't affect anything, also to active this glitch the hoverboard is supposed to end perfectly while picking up a jetpack at the same time, which is almost impossible to occur.</p><p>Steps<br />Activate a hoverboard.<br />Wait until the hoverboard ends.<br />This is the hard part: When the hoverboard perfectly ends, pick up a jetpack at the same time.</p>",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addCheat(
+        "Moving Smoke",
+        "<p>Mid-Air Smoke is a glitch when the Jetpack's &quot;colored&quot; smoke will go to other directions, other than the jetpack itself. You need the Bouncer hoverboard for this glitch.</p><p>Steps<br />Activate Bouncer.<br />This is the slightly hard part: Pick up a jetpack, at the same time the Bouncer still activated.<br />Note: The cheat might not work.<br />Another Note: Upgrade your jetpack for longer durability.<br />Third Note: Sometimes you don't need the Bouncer, and this occurs when you do the &quot;Back Forward Run&quot; glitch.</p>",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addCheat(
+        "Invisi-Board",
+        "<p>Invisi-Board is a glitch that will make the hoverboard invisible, while surfing. This glitch occurs when you try to do the &quot;Back Forward Run.&quot; glitch, but ended up occuring this glitch.</p><p>Steps<br />Start playing and die in a few seconds you begin.<br />Just as you die, click on your mega headstart to activate it. You will fly back forward.<br />When you land, activate your hoverboard, and look if it's invisible.<br />Note: Sometimes it's doesn't work, so try again, but save some hoverboards and mega headstarts.</p>",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addCheat(
+        "Frozen Flyer",
+        "<p>1. Start your run and die right away.</p><p>2. Use a Mega Headstart right after you die.</p><p>3. This may cause you to get a jet pack and fly in the same position as when you died. But if you move you will regain the ability to move.</p>",
+        ""
+    );
+/*--------------------------*/
 
 
 for(i=0;i<10;i++){
