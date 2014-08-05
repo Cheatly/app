@@ -441,26 +441,22 @@ data[l].addVideo(
     );
 /*--------------------------*/
 data[l].addVideo(
-        "Unlock Zoe",
-        "3uNG3Rrc12M"
+        "Tips, Tricks, and Secrets",
+        "M_wrEUrBp_w"
     );
 /*--------------------------*/
 data[l].addVideo(
-        "Unlock Zoe",
-        "gIpw8LWpU5A"
+        "Unlimited Coins Guide",
+        "VZsHpDy2qGo"
     );
 /*--------------------------*/
 data[l].addVideo(
-        "Unlock Zoe",
-        "gIpw8LWpU5A"
+        "Gameplay",
+        "b5HVNGA0MI8"
     );
 /*--------------------------*/
 data[l].addVideo(
-        "Unlock Zoe",
-        "gIpw8LWpU5A"
+        "World Record",
+        "_Z5hxyn3COw"
     );
 /*--------------------------*/
-data[l].addVideo(
-        "Unlock Zoe",
-        "gIpw8LWpU5A"
-    );
