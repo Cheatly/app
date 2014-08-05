@@ -7,12 +7,16 @@ var myApp = new Framework7({
 
         if (page.name === 'page-1') {
             $$("#navbar_1_title").html(window.data[loc].info.title);
+
         }else if(page.name === 'page-2'){
             $$("#navbar_2_title").html("Cheats & Tips");
+            $$(".tab-link[data-tab='tab-2']").find(".badge").html(window.data[loc].cheats.length);
         }else if(page.name === 'page-3'){
             $$("#navbar_3_title").html("Guide & Walkthroughs");
+            $$(".tab-link[data-tab='tab-3']").find(".badge").html(window.data[loc].guide.length);
         }else if(page.name === 'page-4'){
             $$("#navbar_4_title").html("Videos");
+            $$(".tab-link[data-tab='tab-4']").find(".badge").html(window.data[loc].videos.length);
         }
 
     },

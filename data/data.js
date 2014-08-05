@@ -83,5 +83,3 @@ for(i=0;i<100;i++){
         i+"i g"
     );
 }
-
-console.log(data);
