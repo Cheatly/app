@@ -1,6 +1,8 @@
 function Info () {
     this.title = "";
     this.description = "";
+    this.image ="";
+    this.about="";
 }
 
 function Interface() {
@@ -60,7 +62,9 @@ var l="en";
 data[l]= new Data(l);
 
 data[l].info.title="Subway Surfers Cheats";
-data[l].info.description="These are cheats and glitches in "+data[l].info.title+". Sometimes some of the glitches/cheats doesn't work due to an update. Spiegazione di quello che devono fare per ogni sezione + rate this app or share";
+data[l].info.description='These are cheats and glitches in '+data[l].info.title+'. Sometimes some of the glitches/cheats doesn\'t work due to an update. <br/><br/> <a href="#" class="button active">Active Button</a><br/><a href="#" class="button">Active Button</a> ';
+
+
 
 
 /*--------------------------*/
@@ -437,7 +441,7 @@ data[l].addVideo(
 /*--------------------------*/
 data[l].addVideo(
         "Subway surfers game cheats",
-        "gIpw8LWpU5A"
+        "3uNG3Rrc12M"
     );
 /*--------------------------*/
 data[l].addVideo(
