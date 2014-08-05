@@ -10,13 +10,13 @@ var myApp = new Framework7({
 
         }else if(page.name === 'page-2'){
             $$("#navbar_2_title").html("Cheats, Unlocks & Tips");
-           $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].cheats.length);
+            $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].cheats.length);
         }else if(page.name === 'page-3'){
             $$("#navbar_3_title").html("Guide & Walkthroughs");
-           $$(".tab-link[data-tabn='tab-3']").find(".badge").html(window.data[loc].guide.length);
+            $$(".tab-link[data-tabn='tab-3']").find(".badge").html(window.data[loc].guide.length);
         }else if(page.name === 'page-4'){
             $$("#navbar_4_title").html("Videos");
-           $$(".tab-link[data-tabn='tab-4']").find(".badge").text(window.data[loc].videos.length);
+            $$(".tab-link[data-tabn='tab-4']").find(".badge").text(window.data[loc].videos.length);
         }
 
     },
@@ -39,7 +39,7 @@ var myApp = new Framework7({
 
         }else if(page.name === 'page-4'){
 
-            $$(pg).find("[data-id='content']").html(createContents_Cheats());
+            $$(pg).find("[data-id='content']").html(createContents_Videos());
         }
     }
 });
@@ -55,61 +55,86 @@ var mainView = myApp.addView('.view-main', {
 
 function createContents_Cheats(){
     var html="";
-    html+="<ul>";
-    for(var i=0;i<window.data[loc].cheats.length;i++)
-    {
-        html+='<li class="accordion-item">'+
-                    '<a href="#" class="item-content item-link">'+
-                        '<div class="item-inner">'+
-                            '<div class="item-title">'+(i+1)+') '+window.data[loc].cheats[i].title+'</div>'+
-                        '</div>'+
-                    '</a>'+
-                    '<div class="accordion-item-content">'+
-                        '<div class="content-block">'+window.data[loc].cheats[i].description+'</div>'+
-                    '</div>'+
+
+    if(window.data[loc].cheats.length==0){
+        html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
+    }else{
+        html+="<ul>";
+        for(var i=0;i<window.data[loc].cheats.length;i++)
+        {
+            html+='<li class="accordion-item">'+
+                '<a href="#" class="item-content item-link">'+
+                '<div class="item-inner">'+
+                '<div class="item-title">'+(i+1)+') '+window.data[loc].cheats[i].title+'</div>'+
+                '</div>'+
+                '</a>'+
+                '<div class="accordion-item-content">'+
+                '<div class="content-block">'+window.data[loc].cheats[i].description+'</div>'+
+                '</div>'+
                 '</li>';
+        }
+        html+="</ul>";
     }
-    html+="</ul>";
     return html;
 }
 
 function createContents_Guide(){
     var html="";
-    html+="<ul>";
-    for(var i=0;i<window.data[loc].guide.length;i++)
-    {
-        html+='<li class="accordion-item">'+
-                    '<a href="#" class="item-content item-link">'+
-                        '<div class="item-inner">'+
-                            '<div class="item-title">'+(i+1)+') '+window.data[loc].guide[i].title+'</div>'+
-                        '</div>'+
-                    '</a>'+
-                    '<div class="accordion-item-content">'+
-                        '<div class="content-block">'+window.data[loc].guide[i].description+'</div>'+
-                    '</div>'+
+    if(window.data[loc].guide.length==0){
+        html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
+    }else{
+        html+="<ul>";
+        for(var i=0;i<window.data[loc].guide.length;i++)
+        {
+            html+='<li class="accordion-item">'+
+                '<a href="#" class="item-content item-link">'+
+                '<div class="item-inner">'+
+                '<div class="item-title">'+(i+1)+') '+window.data[loc].guide[i].title+'</div>'+
+                '</div>'+
+                '</a>'+
+                '<div class="accordion-item-content">'+
+                '<div class="content-block">'+window.data[loc].guide[i].description+'</div>'+
+                '</div>'+
                 '</li>';
+        }
+        html+="</ul>";
     }
-    html+="</ul>";
     return html;
 }
 
 function createContents_Videos(){
     var html="";
-    html+="<ul>";
-    for(var i=0;i<window.data[loc].videos.length;i++)
-    {
-        html+='<li class="accordion-item">'+
-                    '<a href="#" class="item-content item-link">'+
-                        '<div class="item-inner">'+
-                            '<div class="item-title">'+(i+1)+') '+window.data[loc].videos[i].title+'</div>'+
-                        '</div>'+
-                    '</a>'+
-                    '<div class="accordion-item-content">'+
-                        '<div class="content-block">'+window.data[loc].videos[i].url+'</div>'+
-                    '</div>'+
+    var ytimg_start="http://img.youtube.com/vi/";
+    var ytimg_end="/default.jpg";
+    var yt_url="http://www.youtube.com/embed/";
+    var ytframe_start="<iframe width='100%' height='300px' src='//www.youtube.com/embed/";
+    var ytframe_end="?theme=light' frameborder='0' allowfullscreen></iframe>";
+
+
+    if(window.data[loc].videos.length==0){
+        html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
+    }else{
+        html+="<ul>";
+        for(var i=0;i<window.data[loc].videos.length;i++)
+        {
+            html+='<li class="accordion-item">'+
+                '<a href="#" class="item-content item-link">'+
+                '<div class="item-media"><img src="'+
+                ytimg_start+window.data[loc].videos[i].url+ytimg_end+
+                '" width="60"></div>'+
+                '<div class="item-inner">'+
+                '<div class="item-title">'+(i+1)+') '+window.data[loc].videos[i].title+'</div>'+
+                '</div>'+
+                '</a>'+
+                '<div class="accordion-item-content">'+
+                '<div class="content-block">'+
+                ytframe_start+window.data[loc].videos[i].url+ytframe_end+
+                '</div>'+
+                '</div>'+
                 '</li>';
+        }
+        html+="</ul>";
     }
-    html+="</ul>";
     return html;
 }
 

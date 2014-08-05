@@ -272,16 +272,195 @@ data[l].addCheat(
 /*--------------------------*/
 
 
-for(i=0;i<10;i++){
-    data[l].addVideo(
-        i+"t",
-        i+"d"
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------*/
+data[l].addGuide(
+        "Ride On Top",
+        "Ride on the tops of the trains whenever possible as the camera view is from right behind you and being up high will give you a better view of oncoming traffic and power-ups.",
+        ""
     );
-}
-for(i=0;i<100;i++){
-    data[l].addGuide(
-        i+"t g",
-        i+"d g",
-        i+"i g"
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Free coins in 30 seconds",
+        "Open subway surfers and go to shop.at the boddom of the screen thare is a earn coins button ,press it,and one down from the top it says (sponsored video-watch video to earn coins)watch it and get 100 coins in only about 30 seconds.",
+        ""
     );
-}
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Mega jump",
+        "When you get a super jump when you get the last coin jump or for a jet pack when it runs out of fuel jump then when you get the last coin jump again",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Brody",
+        "Collect 350000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Frank",
+        "Collect 40000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Fresh",
+        "Collect 3 Boomboxes.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Frizzy",
+        "Collect 150000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock King",
+        "Collect 80000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Lucy",
+        "Collect 7000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Ninja",
+        "Collect 20000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Prince K.",
+        "Collect 980000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Spike",
+        "Collect 3 Guitars.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Tagbot",
+        "Collect 12000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Tasha",
+        "Collect 30000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Tony",
+        "Collect 95000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Tricky",
+        "Collect 3 caps.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Yutani",
+        "Collect 3 Shaceships.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Tony",
+        "Collect 95000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*--------------------------*/
+data[l].addGuide(
+        "Unlock Zoe",
+        "Collect 120000 coins.",
+        ""
+    );
+/*--------------------------*/
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*--------------------------*/
+data[l].addVideo(
+        "Trailer",
+        "fUk_eBKL3q8"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
+/*--------------------------*/
+data[l].addVideo(
+        "Unlock Zoe",
+        "gIpw8LWpU5A"
+    );
