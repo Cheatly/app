@@ -14,6 +14,17 @@ function Cheat(title,description,imageurl){
     this.image = imageurl;
 }
 
+function Guide(title,description,imageurl){
+    this.title = title;
+    this.description = description;
+    this.image = imageurl;
+}
+
+function Video(title,url){
+    this.title = title;
+    this.url = url;
+}
+
 
 function Data(locale){
 
@@ -24,9 +35,19 @@ function Data(locale){
 
 
     this.cheats = new Array();
+    this.guide = new Array();
+    this.videos = new Array();
 
     this.addCheat = function(title,description,image){
         this.cheats.push(new Cheat(title,description,image));
+    }
+
+    this.addGuide = function(title,description,image){
+        this.guide.push(new Guide(title,description,image));
+    }
+
+    this.addVideo = function(title,url){
+        this.videos.push(new Video(title,url));
     }
 
 }
@@ -49,6 +70,18 @@ for(i=0;i<10;i++){
         i+"i"
     );
 }
+for(i=0;i<10;i++){
+    data[l].addVideo(
+        i+"t",
+        i+"d"
+    );
+}
+for(i=0;i<100;i++){
+    data[l].addGuide(
+        i+"t g",
+        i+"d g",
+        i+"i g"
+    );
+}
 
-/*
-console.log(data);*/
+console.log(data);

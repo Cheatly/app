@@ -73,3 +73,18 @@ font-face {
     font-weight: normal;
     font-style: normal;
 }
+
+.searchbar {
+    background:#333333;
+}
+.searchbar .searchbar-cancel {
+    color: #FF8040;
+}
+.navbar {
+    background: #FF8040;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.navbar .center {
+    font-weight:bolder;
+}
