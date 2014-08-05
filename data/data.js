@@ -72,7 +72,7 @@ data[l].info.image="<center><img src='data/img/icon_big.jpg'></img></center>";
 data[l].addCheat(
         "A Free Past Board",
         "This cheat gives you the Miami-Special Board for FREE! The instuctions of this cheat is the same as Time Travel Cheat. <br/><br/>Steps:<br/> 1. Go to your device's setting and change the date and time to 'May 30, 2013.'<br/>2. Open Subway Surfers and check your Boards Section. <br/>3. See if you got the Miami-Special Board!<br/><br/>- Note: This cheat may not work!",
-        "https://lh4.ggpht.com/Z9mQlegYmcYc_gfLeDd3Z8hr-NQBLnrVYAlEem-PJQVibeQq4Rc0_XcBlYRXUK3x6b4=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw"
+        ""
     );
 /*--------------------------*/
 
@@ -80,7 +80,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Back Forward Run",
         "Back Forward Run is a rather funny glitch that allow your chraracter to run backwards.<br/><br/>Steps<br/>1. Buy or get in the Mystery Box a Mega Headstart.<br/>2. Start playing and die in a few seconds you begin.<br/>3. Just as you die, click on your headstart to activate it. You will fly back forward.<br/><br/>- Note: It is very hard, so maybe you will need more than one try.<br/>- Another Note: Sometimes when you try to do it, it ends up occurring the 'Moving Smoke' glitch.<br/>- Third Note: If you have an update less than Rio, you should use Headstart Instead?",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130331174902/subwaysurf/images/9/9e/Back_Forward_Run_screenshot.png"
     );
 /*--------------------------*/
 
@@ -88,7 +88,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Zombie Jake",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'October 3, 2012'.",
-        ""
+ "http://img4.wikia.nocookie.net/__cb20130121122553/subwaysurf/images/thumb/3/3f/Zombie_Jake.png/150px-Zombie_Jake.png"
     );
 /*--------------------------*/
 
@@ -96,7 +96,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel -  Elf Tricky and Starboard",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'December 1, 2012'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130128221223/subwaysurf/images/thumb/9/98/Elftricky.png/150px-Elftricky.png;http://img2.wikia.nocookie.net/__cb20130202023456/subwaysurf/images/thumb/8/84/Starboard.png/150px-Starboard.png"
     );
 /*--------------------------*/
 
@@ -104,7 +104,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Carmen and Toucan",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'January 30, 2013'.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130306233203/subwaysurf/images/thumb/6/65/Carmen.png/150px-Carmen.png;http://img4.wikia.nocookie.net/__cb20131124105103/subwaysurf/images/e/e4/Carmen-1-.JPG"
     );
 /*--------------------------*/
 
@@ -112,7 +112,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Kim and Outback",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'April 5, 2013'.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20140629151608/subwaysurf/images/thumb/7/72/Kim.jpg/150px-Kim.jpg;http://img2.wikia.nocookie.net/__cb20140126044933/subwaysurf/images/thumb/7/79/OMG12345_%283%29.PNG/270px-OMG12345_%283%29.PNG"
     );
 /*--------------------------*/
 
@@ -120,7 +120,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Sun and Panda",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'August 3, 2013'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130808113538/subwaysurf/images/thumb/6/61/Sun.png/150px-Sun.png;http://img1.wikia.nocookie.net/__cb20131124105651/subwaysurf/images/a/ad/Sun-1-.JPG"
     );
 /*--------------------------*/
 
@@ -128,7 +128,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Alex and Teddy",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'September 9, 2013'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20131021041744/subwaysurf/images/thumb/d/d7/Alex.jpg/150px-Alex.jpg;http://img4.wikia.nocookie.net/__cb20131124105734/subwaysurf/images/thumb/e/ea/Alex-1-.JPG/150px-Alex-1-.JPG"
     );
 /*--------------------------*/
 
@@ -136,7 +136,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Eddy and Pumpkin",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'October 31, 2013'.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20131014031918/subwaysurf/images/thumb/c/cd/Eddy.png/150px-Eddy.webp;http://img1.wikia.nocookie.net/__cb20131124105827/subwaysurf/images/9/9b/Eddy-1-.JPG"
     );
 /*--------------------------*/
 
@@ -144,7 +144,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Jamie and Snowflake",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'December 28, 2013'.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20131124104647/subwaysurf/images/thumb/4/42/Jamie-1-.JPG/150px-Jamie-1-.JPG;http://img1.wikia.nocookie.net/__cb20131225100400/subwaysurf/images/thumb/8/86/UnlockedBoardSnowflake.PNG/139px-UnlockedBoardSnowflake.PNG"
     );
 /*--------------------------*/
 
@@ -152,7 +152,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel -  Jay and Bengal",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'January 2, 2014'.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20140117142432/subwaysurf/images/thumb/9/93/JayCropped.jpg/150px-JayCropped.jpg;http://img2.wikia.nocookie.net/__cb20140108124811/subwaysurf/images/thumb/b/ba/Juju.jpg/360px-Juju.jpg"
     );
 /*--------------------------*/
 
@@ -160,7 +160,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Nick and Flamingo",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'January 17, 2014'.",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130609084034/subwaysurf/images/thumb/6/6f/Nick.png/120px-Nick.png;http://img3.wikia.nocookie.net/__cb20131124105501/subwaysurf/images/thumb/3/31/Nick-1-.JPG/91px-Nick-1-.webp"
     );
 /*--------------------------*/
 
@@ -168,7 +168,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Mina and Bubblegum",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'February 10, 2014'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20140216154113/subwaysurf/images/thumb/4/44/Mina.jpg/120px-Mina.webp;http://img1.wikia.nocookie.net/__cb20140228165624/subwaysurf/images/thumb/2/23/UnlockingBubblegum1.PNG/360px-UnlockingBubblegum1.PNG"
     );
 /*--------------------------*/
 
@@ -176,7 +176,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Tony and Liberty",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'February 20, 2014'.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130121103719/subwaysurf/images/thumb/9/9a/Tony.png/150px-Tony.webp;http://img2.wikia.nocookie.net/__cb20131124104947/subwaysurf/images/thumb/5/5b/Tony-1-.JPG/150px-Tony-1-.webp"
     );
 /*--------------------------*/
 
@@ -184,7 +184,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Rosa and Prickly",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'April 1, 2014'.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20140327194647/subwaysurf/images/thumb/8/86/Rosa.png/120px-Rosa.webp;http://img1.wikia.nocookie.net/__cb20140328065649/subwaysurf/images/thumb/a/a6/Cactus.png/150px-Cactus.webp"
     );
 /*--------------------------*/
 
@@ -192,7 +192,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Roberto and Kick-Off",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'April 5, 2014'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130304095033/subwaysurf/images/thumb/9/9b/Roberto.png/150px-Roberto.webp;http://img1.wikia.nocookie.net/__cb20140517123536/subwaysurf/images/thumb/8/84/Prince_Jimmy_1.jpg/360px-Prince_Jimmy_1.jpg"
     );
 /*--------------------------*/
 
@@ -200,7 +200,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Olivia and Moose",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'May 8, 2014'.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20140509015830/subwaysurf/images/thumb/3/3f/Olivia.jpg/150px-Olivia.webp;http://img2.wikia.nocookie.net/__cb20140725140135/subwaysurf/images/thumb/7/78/UnlockingMoose1.PNG/360px-UnlockingMoose1.PNG"
     );
 /*--------------------------*/
 
@@ -208,7 +208,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Harumi and Fortune",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'May 24, 2014'.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130509024848/subwaysurf/images/c/cd/Harumi.png;"
     );
 /*--------------------------*/
 
@@ -216,7 +216,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Edison and Banana",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'June 4, 2014'.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20140628102659/subwaysurf/images/thumb/1/1b/UnlockingEdison1.PNG/360px-UnlockingEdison1.PNG;http://img4.wikia.nocookie.net/__cb20140702192653/subwaysurf/images/thumb/6/69/Banana.png/480px-Banana.png"
     );
 /*--------------------------*/
 
@@ -224,7 +224,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Time Travel - Coco and Rose",
         "Time Travel will allow you to buy removed limited edition characters, and other special mission with limited time, but note that the scene will not change.<br/><br/>Steps:<br/>1. Go to your device's setting and click 'Date and Time.'<br/>Set the time on 'June 26, 2014'.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20130729115021/subwaysurf/images/thumb/d/d8/Coco.png/150px-Coco.webp;http://img2.wikia.nocookie.net/__cb20140721181355/subwaysurf/images/thumb/b/b0/UnlockingRose3.PNG/360px-UnlockingRose3.PNG"
     );
 /*--------------------------*/
 
@@ -240,7 +240,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Coin-Doubler Jetpack",
         "<p>This cheat will allow you to collect 2 coins, when riding a jetpack.</p><p>Steps<br />Get Super Sneakers power-up.<br />When you're lucky, you might find a jetpack, when the super sneakers isn't de-activated yet. (Can be easy if the Super Sneakers is upgraded.)<br />Swipe to collect coins, as you can see the coin meter fills it 2 coins every coin collected.<br />Tip: Upgrade the Super Sneakers and Jetpack for the cheat to be easier.</p>",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130128222146/subwaysurf/images/9/91/Supersneakers.png;http://img1.wikia.nocookie.net/__cb20130128222116/subwaysurf/images/0/07/Jetpack.png"
     );
 /*--------------------------*/
 
@@ -256,7 +256,7 @@ data[l].addCheat(
 data[l].addCheat(
         "Moving Smoke",
         "<p>Mid-Air Smoke is a glitch when the Jetpack's &quot;colored&quot; smoke will go to other directions, other than the jetpack itself. You need the Bouncer hoverboard for this glitch.</p><p>Steps<br />Activate Bouncer.<br />This is the slightly hard part: Pick up a jetpack, at the same time the Bouncer still activated.<br />Note: The cheat might not work.<br />Another Note: Upgrade your jetpack for longer durability.<br />Third Note: Sometimes you don't need the Bouncer, and this occurs when you do the &quot;Back Forward Run&quot; glitch.</p>",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130528024703/subwaysurf/images/f/f5/Bouncer.png"
     );
 /*--------------------------*/
 
@@ -284,7 +284,7 @@ data[l].addCheat(
 data[l].addGuide(
         "Ride On Top",
         "Ride on the tops of the trains whenever possible as the camera view is from right behind you and being up high will give you a better view of oncoming traffic and power-ups.",
-        "https://lh4.ggpht.com/Z9mQlegYmcYc_gfLeDd3Z8hr-NQBLnrVYAlEem-PJQVibeQq4Rc0_XcBlYRXUK3x6b4=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw;https://lh6.ggpht.com/Q2QK-rMnmoSVB6vBBSOWzj-8oljUVaKV8w-uKyVlp9zw8OTk2aQHL6Ex7WatC0UbBRw=h310-rw"
+        ""
     );
 /*--------------------------*/
 
@@ -308,7 +308,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Brody",
         "Collect 350000 coins.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130114112130/subwaysurf/images/4/4c/Brody.png"
     );
 /*--------------------------*/
 
@@ -316,7 +316,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Frank",
         "Collect 40000 coins.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130112042907/subwaysurf/images/2/2b/Frank.png"
     );
 /*--------------------------*/
 
@@ -324,7 +324,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Fresh",
         "Collect 3 Boomboxes.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130108104922/subwaysurf/images/0/03/Fresh.png"
     );
 /*--------------------------*/
 
@@ -332,7 +332,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Frizzy",
         "Collect 150000 coins.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20130112042515/subwaysurf/images/d/d1/Frizzy.png"
     );
 /*--------------------------*/
 
@@ -340,7 +340,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock King",
         "Collect 80000 coins.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130202024726/subwaysurf/images/1/1d/King.png"
     );
 /*--------------------------*/
 
@@ -348,7 +348,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Lucy",
         "Collect 7000 coins.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20130112014128/subwaysurf/images/0/05/Lucy.png"
     );
 /*--------------------------*/
 
@@ -356,7 +356,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Ninja",
         "Collect 20000 coins.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130110112228/subwaysurf/images/2/21/Ninja.png"
     );
 /*--------------------------*/
 
@@ -364,7 +364,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Prince K.",
         "Collect 980000 coins.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130110124405/subwaysurf/images/3/3a/Prince_K.png"
     );
 /*--------------------------*/
 
@@ -372,7 +372,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Spike",
         "Collect 3 Guitars.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130108121607/subwaysurf/images/d/de/Spike.png"
     );
 /*--------------------------*/
 
@@ -380,7 +380,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Tagbot",
         "Collect 12000 coins.",
-        ""
+        "http://img1.wikia.nocookie.net/__cb20130119040030/subwaysurf/images/2/2c/Tagbot.png"
     );
 /*--------------------------*/
 
@@ -388,7 +388,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Tasha",
         "Collect 30000 coins.",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130202025554/subwaysurf/images/thumb/4/45/Tasha.png/120px-Tasha.png"
     );
 /*--------------------------*/
 
@@ -396,7 +396,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Tony",
         "Collect 95000 coins.",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130121103719/subwaysurf/images/9/9a/Tony.png"
     );
 /*--------------------------*/
 
@@ -404,7 +404,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Tricky",
         "Collect 3 caps.",
-        ""
+        "http://img4.wikia.nocookie.net/__cb20130107122828/subwaysurf/images/d/d4/Tricky.png"
     );
 /*--------------------------*/
 
@@ -420,7 +420,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Tony",
         "Collect 95000 coins.",
-        ""
+        "http://img3.wikia.nocookie.net/__cb20130108122436/subwaysurf/images/1/19/Yutani.png"
     );
 /*--------------------------*/
 
@@ -428,7 +428,7 @@ data[l].addGuide(
 data[l].addGuide(
         "Unlock Zoe",
         "Collect 120000 coins.",
-        ""
+        "http://img2.wikia.nocookie.net/__cb20130202023505/subwaysurf/images/4/4a/Zoe.png"
     );
 /*--------------------------*/
 

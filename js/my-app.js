@@ -131,7 +131,7 @@ function createContents_Guide(){
                 '<div class="accordion-item-content">'+
                 '<div class="content-block">'+
                 window.data[loc].guide[i].description+"<br/>"+
-                insertImageCheats(i)+
+                insertImageGuide(i)+
                 '</div>'+
                 '</div>'+
                 '</li>';
