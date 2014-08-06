@@ -42,8 +42,9 @@ i.close {
     background-image: url('../data/img/close.svg');
 }
 i.app_icon {
-    width: 33px;
-    height: 33px;
+    width: 43px;
+    height: 43px;
+    margin-top: -3px;
     background-image: url('../data/img/icon_big.jpg');
     border: solid 1px #FF8040;
     -webkit-border-radius: 5px;
