@@ -109,16 +109,19 @@ font-face {
 }
 
 .center{
- text-align: center;
+    text-align: center;
 }
 .fright{
- float:right;
+    float:right;
 }
 .fleft{
- float:left;
+    float:left;
 }
 
 .desc{
     margin-bottom: 10px;
+}
 
+#about_law{
+    font-size: 10px;
 }

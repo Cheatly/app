@@ -7,7 +7,6 @@ var myApp = new Framework7({
 
         if (page.name === 'page-1') {
             $$("#navbar_1_title").html(window.data[loc].info.title);
-
         }else if(page.name === 'page-2'){
             $$("#navbar_2_title").html("Cheats, Unlocks & Tips");
             $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].cheats.length);
@@ -41,8 +40,13 @@ var myApp = new Framework7({
 
             $$(pg).find("[data-id='content']").html(createContents_Videos());
         }
+
     }
+
 });
+
+$$("#about").html(window.data[loc].info.about+"<br/><br/>"+window.data[loc].info.image);
+$$("#about_law").html(window.data[loc].info.about_law);
 
 
 // Add view

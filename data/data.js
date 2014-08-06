@@ -1,8 +1,10 @@
 function Info () {
     this.title = "";
+    this.title_plus ="";
     this.description = "";
     this.image ="";
     this.about="";
+    this.about_law="";
 }
 
 function Interface() {
@@ -61,11 +63,12 @@ var data = new Array();
 var l="en";
 data[l]= new Data(l);
 
-data[l].info.title="Subway Surfers Cheats";
+data[l].info.title="Subway Surfers";
+data[l].info.title_plus="Cheats";
 data[l].info.description='These are cheats and glitches in '+data[l].info.title+'. Sometimes some of the glitches/cheats doesn\'t work due to an update. <br/><br/>';
 data[l].info.image="<center><img src='data/img/icon_big.jpg'></img></center>";
-
-
+data[l].info.about="This app is powered by <a target='_blank' href='http://www.cheat.ly'>Cheat.ly</a>";
+data[l].info.about_law="Notice: The name "+data[l].info.title+" and all the images and logos displayed in the application are protected by copyright and are registered trademarks of their respective corporations. This application is not responsible for any misuse that a third party can do about these images nor have any rights to these images or name "+data[l].info.title+". This application, or someone related to this, claims not to have any type of property (copyright or otherwise) of the images and logos used in this application nor on the name "+data[l].info.title+". The images, logos and the name "+data[l].info.title+" are protected by copyright and / or trademark. The use of low-resolution images and logos, and \""+data[l].info.title+" "+data[l].info.title_plus+"\" name of this application is rated as \"Fair Use\" under U.S. copyright law. If you feel there is a direct copyright or trademark violation that doesn't follow within the \"Fair Use\" guidelines, please contact us directly at support@cheat.ly.";
 
 
 /*--------------------------*/
