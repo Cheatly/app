@@ -50,6 +50,7 @@ var myApp = new Framework7({
 });
 
 $$("#about").html(window.data[loc].info.about+"<br/><br/>"+window.data[loc].info.image);
+$$("#about_thanks").html(window.data[loc].info.about_thanks);
 $$("#about_law").html(window.data[loc].info.about_law);
 
 
