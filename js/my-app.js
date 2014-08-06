@@ -88,7 +88,7 @@ function createContents_Cheats(){
     return html;
 }
 
-$$('.click-cheat').on('click', function (e) {
+$$('.click-cheat').on('touchstart', function (e) {
     //console.log($$(this).attr('data-guide-id'));
     if($$(this).find(".row").length==0){
         var html=insertImageCheats($$(this).attr('data-cheat-id'));
