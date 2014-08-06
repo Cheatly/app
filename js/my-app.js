@@ -1,4 +1,4 @@
-var loc="en";
+var loc = "en";
 
 var ytimg_start="http://img.youtube.com/vi/";
 var ytimg_end="/default.jpg";
@@ -64,7 +64,7 @@ var mainView = myApp.addView('.view-main', {
 function createContents_Cheats(){
     var html="";
 
-    if(window.data[loc].cheats.length==0){
+    if(window.data[loc].cheats.length===0){
         html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
     }else{
         html+="<ul>";
@@ -88,9 +88,9 @@ function createContents_Cheats(){
     return html;
 }
 
-$$('.click-cheat').on('touchstart', function (e) {
+$$('.click-cheat').on('click', function () {//someone argue that touchstart is better
     //console.log($$(this).attr('data-guide-id'));
-    if($$(this).find(".row").length==0){
+    if($$(this).find(".row").length===0){
         var html=insertImageCheats($$(this).attr('data-cheat-id'));
         //console.log($$(this).find(".content-block"));
         $$(this).find(".content-block").append("<br/>"+html);
@@ -100,11 +100,11 @@ $$('.click-cheat').on('touchstart', function (e) {
 
 function insertImageCheats(n){
 
-    if(window.data[loc].cheats[n].image!=""){
+    if(window.data[loc].cheats[n].image!==""){
         var html="<br/>";
         var split=window.data[loc].cheats[n].image.split(";");
         for(var i=0;i<split.length;i++){
-            if(i%2==0){html+='<div class="row">';}
+            if(i%2===0){html+='<div class="row">';}
             html+='<div class="col-50"><img src="'+split[i]+'" width="100%"></img></div>';
             if(i%2==1){html+='</div>';}
         }
@@ -117,7 +117,7 @@ function insertImageCheats(n){
 
 function createContents_Guide(){
     var html="";
-    if(window.data[loc].guide.length==0){
+    if(window.data[loc].guide.length===0){
         html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
     }else{
         html+="<ul>";
@@ -142,9 +142,9 @@ function createContents_Guide(){
 }
 
 
-$$('.click-guide').on('click', function (e) {
+$$('.click-guide').on('click', function () {
     //console.log($$(this).attr('data-guide-id'));
-    if($$(this).find(".row").length==0){
+    if($$(this).find(".row").length===0){
         var html=insertImageGuide($$(this).attr('data-guide-id'));
         //console.log($$(this).find(".content-block"));
         $$(this).find(".content-block").append("<br/>"+html);
@@ -153,11 +153,11 @@ $$('.click-guide').on('click', function (e) {
 
 function insertImageGuide(n){
 
-    if(window.data[loc].guide[n].image!=""){
+    if(window.data[loc].guide[n].image!==""){
         var html="<br/>";
         var split=window.data[loc].guide[n].image.split(";");
         for(var i=0;i<split.length;i++){
-            if(i%2==0){html+='<div class="row">';}
+            if(i%2===0){html+='<div class="row">';}
             html+='<div class="col-50"><img src="'+split[i]+'" width="100%"></img></div>';
             if(i%2==1){html+='</div>';}
         }
@@ -174,7 +174,7 @@ function createContents_Videos(){
 
 
 
-    if(window.data[loc].videos.length==0){
+    if(window.data[loc].videos.length===0){
         html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
     }else{
         html+="<ul>";
@@ -201,9 +201,9 @@ function createContents_Videos(){
     return html;
 }
 
-$$('.click-video').on('click', function (e) {
+$$('.click-video').on('click', function () {
     //console.log($$(this).attr('data-video-id'));
-    if($$(this).find("iframe").length==0){
+    if($$(this).find("iframe").length===0){
         var i=$$(this).attr('data-video-id');
         var html=window.ytframe_start+window.data[loc].videos[i].url+window.ytframe_end;
         //console.log($$(this).find(".content-block"));
