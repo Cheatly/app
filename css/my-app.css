@@ -44,7 +44,23 @@ i.close {
     background-image: url('data:image/svg+xml;charset=utf-8,<svg version="1" xmlns="http://www.w3.org/2000/svg" fill="#FF8040" viewBox="0 0 50 50" enable-background="new 0 0 50 50"><path d="M34.7 15.3c-0.4-0.4-1-0.4-1.4 0L25 23.6l-8.3-8.3c-0.4-0.4-1-0.4-1.4 0s-0.4 1 0 1.4L23.6 25l-8.3 8.3c-0.4 0.4-0.4 1 0 1.4s1 0.4 1.4 0L25 26.4l8.3 8.3C33.5 34.9 33.7 35 34 35s0.5-0.1 0.7-0.3c0.4-0.4 0.4-1 0-1.4L26.4 25l8.3-8.3C35.1 16.3 35.1 15.7 34.7 15.3zM25 0C11.2 0 0 11.2 0 25s11.2 25 25 25 25-11.2 25-25S38.8 0 25 0zM25 48C12.3 48 2 37.7 2 25 2 12.3 12.3 2 25 2c12.7 0 23 10.3 23 23C48 37.7 37.7 48 25 48z"/></svg>');
 }
 
+i.app_icon {
+    width: 33px;
+    height: 33px;
+    background-image: url('../data/img/icon_big.jpg');
+    border: solid 1px #FF8040;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 
+}
+
+.app_icon_big{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: solid 1px #f7f7f8;
+}
 
 .badge.badge-orange {
     background: #ff8040;

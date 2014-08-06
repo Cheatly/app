@@ -6,7 +6,7 @@ var myApp = new Framework7({
     onPageBeforeInit: function (app, page) {
 
         if (page.name === 'page-1') {
-            $$("#navbar_1_title").html(window.data[loc].info.title);
+            $$("#navbar_1_title").html(window.data[loc].info.title+" "+window.data[loc].info.title_plus);
         }else if(page.name === 'page-2'){
             $$("#navbar_2_title").html("Cheats, Unlocks & Tips");
             $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].cheats.length);
@@ -24,8 +24,7 @@ var myApp = new Framework7({
         var pg=$$(".page[data-page='"+page.name+"']");
         if (page.name === 'page-1') {
 
-            $$("#navbar_1_title").html(window.data[loc].info.title);
-            $$(pg).find("[data-id='title']").html(window.data[loc].info.title);
+            $$(pg).find("[data-id='title']").html(window.data[loc].info.title+" "+window.data[loc].info.title_plus);
             $$(pg).find("[data-id='content']").html(window.data[loc].info.description+window.data[loc].info.image);
 
         }else if(page.name === 'page-2'){
