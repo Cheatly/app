@@ -1,5 +1,10 @@
 var loc="en";
 
+var ytimg_start="http://img.youtube.com/vi/";
+var ytimg_end="/default.jpg";
+var yt_url="http://www.youtube.com/embed/";
+var ytframe_start="<iframe width='100%' height='300px' src='http://www.youtube.com/embed/";
+var ytframe_end="?theme=light' frameborder='0' allowfullscreen></iframe>";
 
 var $$ = Framework7.$; // Export selectors engine
 var myApp = new Framework7({
@@ -20,7 +25,7 @@ var myApp = new Framework7({
 
     },
     onPageInit: function (app, page) {
-        console.log(page.name+' initialized');
+        //console.log(page.name+' initialized');
         var pg=$$(".page[data-page='"+page.name+"']");
         if (page.name === 'page-1') {
 
@@ -65,7 +70,7 @@ function createContents_Cheats(){
         html+="<ul>";
         for(var i=0;i<window.data[loc].cheats.length;i++)
         {
-            html+='<li class="accordion-item">'+
+            html+='<li class="accordion-item click-cheat" data-cheat-id="'+i+'">'+
                 '<a href="#" class="item-content item-link">'+
                 '<div class="item-inner">'+
                 '<div class="item-title">'+(i+1)+') '+window.data[loc].cheats[i].title+'</div>'+
@@ -73,8 +78,7 @@ function createContents_Cheats(){
                 '</a>'+
                 '<div class="accordion-item-content">'+
                 '<div class="content-block">'+
-                window.data[loc].cheats[i].description+"<br/>"+
-                insertImageCheats(i)+
+                window.data[loc].cheats[i].description+
                 '</div>'+
                 '</div>'+
                 '</li>';
@@ -83,6 +87,15 @@ function createContents_Cheats(){
     }
     return html;
 }
+
+$$('.click-cheat').on('click', function (e) {
+    //console.log($$(this).attr('data-guide-id'));
+    if($$(this).find(".row").length==0){
+        var html=insertImageCheats($$(this).attr('data-cheat-id'));
+        //console.log($$(this).find(".content-block"));
+        $$(this).find(".content-block").append("<br/>"+html);
+    }
+});
 
 
 function insertImageCheats(n){
@@ -102,6 +115,42 @@ function insertImageCheats(n){
     return "";
 }
 
+function createContents_Guide(){
+    var html="";
+    if(window.data[loc].guide.length==0){
+        html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
+    }else{
+        html+="<ul>";
+        for(var i=0;i<window.data[loc].guide.length;i++)
+        {
+            html+='<li class="accordion-item click-guide" data-guide-id="'+i+'">'+
+                '<a href="#" class="item-content item-link">'+
+                '<div class="item-inner">'+
+                '<div class="item-title">'+(i+1)+') '+window.data[loc].guide[i].title+'</div>'+
+                '</div>'+
+                '</a>'+
+                '<div class="accordion-item-content">'+
+                '<div class="content-block">'+
+                window.data[loc].guide[i].description+
+                '</div>'+
+                '</div>'+
+                '</li>';
+        }
+        html+="</ul>";
+    }
+    return html;
+}
+
+
+$$('.click-guide').on('click', function (e) {
+    //console.log($$(this).attr('data-guide-id'));
+    if($$(this).find(".row").length==0){
+        var html=insertImageGuide($$(this).attr('data-guide-id'));
+        //console.log($$(this).find(".content-block"));
+        $$(this).find(".content-block").append("<br/>"+html);
+    }
+});
+
 function insertImageGuide(n){
 
     if(window.data[loc].guide[n].image!=""){
@@ -120,40 +169,9 @@ function insertImageGuide(n){
     return "";
 }
 
-function createContents_Guide(){
-    var html="";
-    if(window.data[loc].guide.length==0){
-        html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
-    }else{
-        html+="<ul>";
-        for(var i=0;i<window.data[loc].guide.length;i++)
-        {
-            html+='<li class="accordion-item">'+
-                '<a href="#" class="item-content item-link">'+
-                '<div class="item-inner">'+
-                '<div class="item-title">'+(i+1)+') '+window.data[loc].guide[i].title+'</div>'+
-                '</div>'+
-                '</a>'+
-                '<div class="accordion-item-content">'+
-                '<div class="content-block">'+
-                window.data[loc].guide[i].description+"<br/>"+
-                insertImageGuide(i)+
-                '</div>'+
-                '</div>'+
-                '</li>';
-        }
-        html+="</ul>";
-    }
-    return html;
-}
-
 function createContents_Videos(){
     var html="";
-    var ytimg_start="http://img.youtube.com/vi/";
-    var ytimg_end="/default.jpg";
-    var yt_url="http://www.youtube.com/embed/";
-    var ytframe_start="<iframe width='100%' height='300px' src='http://www.youtube.com/embed/";
-    var ytframe_end="?theme=light' frameborder='0' allowfullscreen></iframe>";
+
 
 
     if(window.data[loc].videos.length==0){
@@ -162,7 +180,7 @@ function createContents_Videos(){
         html+="<ul>";
         for(var i=0;i<window.data[loc].videos.length;i++)
         {
-            html+='<li class="accordion-item">'+
+            html+='<li class="accordion-item click-video" data-video-id="'+i+'">'+
                 '<a href="#" class="item-content item-link">'+
                 '<div class="item-media"><img src="'+
                 ytimg_start+window.data[loc].videos[i].url+ytimg_end+
@@ -173,7 +191,7 @@ function createContents_Videos(){
                 '</a>'+
                 '<div class="accordion-item-content">'+
                 '<div class="content-block">'+
-                ytframe_start+window.data[loc].videos[i].url+ytframe_end+
+
                 '</div>'+
                 '</div>'+
                 '</li>';
@@ -183,4 +201,25 @@ function createContents_Videos(){
     return html;
 }
 
+$$('.click-video').on('click', function (e) {
+    //console.log($$(this).attr('data-video-id'));
+    if($$(this).find("iframe").length==0){
+        var i=$$(this).attr('data-video-id');
+        var html=window.ytframe_start+window.data[loc].videos[i].url+window.ytframe_end;
+        //console.log($$(this).find(".content-block"));
+        $$(this).find(".content-block").append("<br/>"+html);
+    }
+});
+
+
+function imageExists(image_url){
+
+    var http = new XMLHttpRequest();
+
+    http.open('HEAD', image_url, false);
+    http.send();
+
+    return http.status != 404;
+
+}
 

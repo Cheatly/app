@@ -141,3 +141,7 @@ font-face {
 #about_law{
     font-size: 10px;
 }
+
+.row{
+    max-width: 250px;
+}
